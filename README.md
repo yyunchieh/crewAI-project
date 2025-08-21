@@ -68,14 +68,9 @@ This report outlines the emerging trends and future perspectives related to Reco
 ## 1. Deep Learning-based Recommender Systems
 
 
-
-
-
 ## Key Findings
-
 - LLMs can enhance personalization...
 - Multi-agent systems improve efficiency...
-
 
 
 ## Contribution/Future Work
@@ -87,6 +82,5 @@ This report outlines the emerging trends and future perspectives related to Reco
 
 ## Links
 
-```markdown
 **[CrewAI Documentation](https://docs.crewai.com/en/introduction)**
 
