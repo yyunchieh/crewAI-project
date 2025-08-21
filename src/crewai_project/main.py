@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 import warnings
-
+import os
 from datetime import datetime
 
 from .crew import Raproject
@@ -68,6 +68,18 @@ def test():
 
     except Exception as e:
         print(f"An error occurred while testing the crew: {e}")
+
+
+
+def save_to_markdown(result:str):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    filename = f"report.md"
+    filepath = os.path.join(current_dir, filename)
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(result)
+    
+    print(f"It has been saved")
 
 if __name__ == "__main__":
     run()

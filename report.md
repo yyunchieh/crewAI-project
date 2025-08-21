@@ -1,30 +1,42 @@
-## Research Summary: Advances in Recommender Systems
+# Comprehensive Review on Recommendation Systems 
 
-### 1. Deep Learning based Recommender System: A Survey and New Perspectives
-This 2018 paper published in ACM Computing Surveys (CSUR) by Zhang, Yao, and Sun explores how deep learning can be utilized in recommender systems to improve performance. They highlight the accuracy and ability of deep learning-based recommender systems to handle complex patterns.
+This report outlines the emerging trend and future perspectives related to Recommendation Systems, as achieved from a range of sources. 
 
-### 2. BPR: Bayesian Personalized Ranking from Implicit Feedback
-This 2009 research by Rendle, Freudenthaler, Gantner, and Schmidt-Thieme introduces the Bayesian Personalized Ranking (BPR) algorithm. Published in the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence proceedings, BPR optimizes personalized ranking in recommendation systems, especially in cases of implicit feedback.
+## 1. Deep Learning-based Recommender System
 
-### 3. Hybrid Recommender Systems: Survey and Experiments
-Published in User Modeling and User-Adapted Interaction journal in 2002, Robin Burke's research provides an in-depth look into hybrid recommender systems. These systems combine multiple recommendation techniques to improve performance. A comprehensive taxonomy of strategies is offered, with evaluations across different user models and data sets.
+The paper "Deep Learning based Recommender System: A Survey and New Perspectives" [1] points out that recommending systems function by identifying patterns of user interest and activity. A deep learning-based approach is posited to make this process more efficient and personalized.
 
-### 4. Cross-Domain Collaborative Filtering in a Cold Start Context: The Impact of User Profile Size on the Quality of Recommendation
-El Hassani and Behja's 2017 research published in Information Sciences delves into the difficulties of cross-domain recommendation and the 'cold start' issue for users with limited profiles. A novel cross-domain collaborative filtering approach is proposed that optimizes recommendation quality in a cold-start context.
+## 2. Application of Recommender System
 
-### 5. Addressing Cold-Start Problem in Recommendation Systems by Bipartite Network Projection
-Published in 2020 in IEEE Transactions on Cybernetics, Lu, Zhou, Xiao, Duan, Ye, and Li offer a new solution to the 'cold start' problem in recommendation systems. By creating a user-item bipartite network, the network is projected onto the user-side resulting in a user-user weighted network, which improves recommendation accuracy.
+"A Survey of Recommender Systems and Their Applications" [2] highlights the significance of recommender systems in various sectors such as e-commerce sites, streaming services, and social media platforms. These systems enhance user experience by suggesting items based on user behavioural patterns and preferences.
 
-## Proposed Research Directions:
+## 3. Bayesian Personalized Ranking for Individual Item Ranking
 
-1. **Comparison of Deep Learning Algorithms in Recommender Systems:** Assess the effectiveness and efficiency of various deep learning algorithms within the context of recommendation systems.
-   
-2. **Application of BPR in Hybrid Recommender Systems:** Investigate the suitability and impact of applying Bayesian Personalized Ranking in hybrid recommender systems.
-   
-3. **Evaluation of Different Hybrid Recommender System Strategies Against 'Cold Start' Problem:** Perform an evaluation on how the 'cold start' problem is addressed by different hybrid recommender system strategies.
-   
-4. **Impact of User Profile Completeness on Cross-Domain Collaborative Filtering:** Examine how the completeness of a user's profile influences the quality of recommendations given by cross-domain collaborative filtering.
-   
-5. **Using Bipartite Network Projection in Deep Learning-based Recommender Systems:** Explore the impact of employing bipartite network projection technique in deep learning-based recommender systems.
-   
-Each proposed direction expands upon the insights gained from the papers discussed, aiming to fill existing knowledge gaps and offer new ways to enhance the accuracy and efficiency of recommender systems.
+"BPR: Bayesian Personalized Ranking from Implicit Feedback" [3] emphasizes the importance of recommendation systems in handling implicit feedback and introduces Bayesian Personalized Ranking (BPR) for individual item ranking.
+
+## 4. Collaborative Filtering for Implicit Feedback Datasets
+
+Collaboration of Implicit Feedback Datasets with matrix factorization model is revealed in "Collaborative Filtering for Implicit Feedback Datasets" [4]. This model is found to be a common practice in recommendation systems due to its potential to handle large implicit feedback datasets smoothly.
+
+## 5. The YouTube Video Recommendation System
+
+"The YouTube video recommendation system" [5] throws light on the crucial role of recommendation systems in retaining a user base on platforms like YouTube. 
+
+## Proposed Research Directions
+
+The following questions merit further attention: 
+
+1. What are refined metrics and methods to assess the reliability and efficiency of deep-learning-based Recommender Systems?
+2. The application of Recommender Systems could be beneficial in less popular or unconventional platforms or industries. 
+3. Research should direct its focus to make implicit feedback more fruitful in Bayesian Personalized Ranking (BPR) for recommendation systems.
+4. A rigorous investigation is needed on alternatives to the matrix factorization model or improving its efficiency for handling larger implicit feedback datasets.
+5. Research on AI-based Recommender Systems could be directed towards optimization of real-time adaptability and boost user engagement.
+
+This provides a comprehensive overview of the existing research and paves the way for future studies in the rapidly changing field of Recommendation Systems. 
+
+## References
+[1] "Deep Learning based Recommender System: A Survey and New Perspectives", arXiv.
+[2] "A Survey of Recommender Systems and Their Applications", IEEE Xplore.
+[3] "BPR: Bayesian Personalized Ranking from Implicit Feedback", arXiv.
+[4] "Collaborative Filtering for Implicit Feedback Datasets", IEEE.
+[5] "The YouTube video recommendation system", ACM.
