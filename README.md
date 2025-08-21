@@ -69,8 +69,8 @@ This report outlines the emerging trends and future perspectives related to Reco
 
 
 ## Key Findings
-- LLMs can enhance personalization...
-- Multi-agent systems improve efficiency...
+-LLMs can enhance personalization...
+-Multi-agent systems improve efficiency...
 
 
 ## Contribution/Future Work
@@ -79,6 +79,8 @@ This report outlines the emerging trends and future perspectives related to Reco
 -Integrate automated literature database access
 
 -Generate time-stamped reports for versioning
+
+```
 
 ## Links
 
