@@ -87,5 +87,5 @@ This report outlines the emerging trends and future perspectives related to Reco
 
 ## Links
 
-[CrewAI Documentation](https://docs.crewai.com/en/introduction)
+**[CrewAI Documentation](https://docs.crewai.com/en/introduction)**
 
